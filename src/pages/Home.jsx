@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import ButtonGroupHeader from '../components/ButtonGroupHeader';
 import NavbarTop from '../components/NavbarTop';
 import TabsContainer from '../components/TabsContainer';
@@ -7,8 +8,10 @@ const Home = () => {
 	return (
 		<>
 			<NavbarTop />
-			<ButtonGroupHeader />
-			<TabsContainer />
+			<Container>
+				<ButtonGroupHeader />
+				<TabsContainer />
+			</Container>
 		</>
 	);
 };
