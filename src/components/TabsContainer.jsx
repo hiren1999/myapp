@@ -8,17 +8,16 @@ const TabsContainer = () => {
 			<Tabs
 				defaultActiveKey='customer-info'
 				id='justify-tab-example'
-				className='mb-3'
 				justify
 			>
 				<Tab eventKey='customer-info' title='Customer Information'>
 					<CustomerInfo />
 				</Tab>
 				<Tab eventKey='credit-info' title='Credit Information'>
-					Credit Information
+					<div className='border p-3'>Credit Information</div>
 				</Tab>
 				<Tab eventKey='ref-info' title='Reference Information'>
-					Reference Information
+					<div className='border p-3'>Reference Information</div>
 				</Tab>
 			</Tabs>
 		</div>

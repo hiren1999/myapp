@@ -12,24 +12,24 @@ import { AiFillCloseCircle, AiFillDelete } from 'react-icons/ai';
 
 const ButtonGroupHeader = () => {
 	return (
-		<div className='row m-2'>
-			<div className='col-12 col-md-6 col-xl-4 mb-2'>
-				<Button variant='light' className='me-2 mb-1  '>
+		<div className='row mt-3'>
+			<div className='col-12 col-md-6 col-xl-4 mb-2 d-flex justify-content-between'>
+				<Button variant='primary' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaSistrix />
-						Search
+						<span>Search</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='warning' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaPrint />
-						Status
+						<span>Status</span>
 					</div>
 				</Button>
 				<Button variant='light' className='me-2 mb-1  '>
@@ -38,7 +38,7 @@ const ButtonGroupHeader = () => {
 '
 					>
 						<BsFillPrinterFill />
-						Print Statement
+						<span>Print Statement</span>
 					</div>
 				</Button>
 				<Button variant='light' className='me-2 mb-1  '>
@@ -47,101 +47,101 @@ const ButtonGroupHeader = () => {
 '
 					>
 						<FaPrint />
-						Print Credit Memo
+						<span>Print Credit Memo</span>
 					</div>
 				</Button>
 			</div>
-			<div className='col-12 col-md-6 col-xl-5 mb-2'>
-				<Button variant='light' className='me-2 mb-1  '>
+			<div className='col-12 col-md-6 col-xl-5 mb-2 d-flex justify-content-between'>
+				<Button variant='dark' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaFileInvoice />
-						Invoices
+						<span>Invoices</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='dark' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaFileInvoice />
-						Memos
+						<span>Memos</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='primary' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaSistrix />
-						Ship To
+						<span>ShipTo</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='success' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaDollarSign />
-						Payment
+						<span>Payment</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='warning' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaDollarSign />
-						Sales Order
+						<span>Sales Order</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='secondary' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaDollarSign />
-						Quotes
+						<span>Quotes</span>
 					</div>
 				</Button>
 			</div>
-			<div className='col-12 col-md-6 col-xl-3 mb-2'>
-				<Button variant='light' className='me-2 mb-1  '>
+			<div className='col-12 col-md-6 col-xl-3 mb-2 d-flex justify-content-between'>
+				<Button variant='primary' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaPrint />
-						New
+						<span>New</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='danger' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<AiFillDelete />
-						Delete
+						<span>Delete</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='success' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<FaSave />
-						Save
+						<span>Save</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button variant='danger' className='me-2 mb-1  '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
 					>
 						<AiFillCloseCircle />
-						Close
+						<span>Close</span>
 					</div>
 				</Button>
 			</div>

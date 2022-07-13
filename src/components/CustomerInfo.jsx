@@ -3,8 +3,8 @@ import { Button, Form } from 'react-bootstrap';
 
 const CustomerInfo = () => {
 	return (
-		<>
-			<div className='row '>
+		<div className='border'>
+			<div className='row m-3'>
 				<div className='col-12 '>
 					<div className='d-flex flex-column'>
 						<div className='row border mb-2'>
@@ -225,7 +225,7 @@ const CustomerInfo = () => {
 					<Button variant='secondary'>Print label</Button>
 				</div>
 			</div>
-			<div className='row border p-3 mt-2'>
+			<div className='row border m-3'>
 				<div className='col-12 col-md-6 col-lg-3'>
 					<p>
 						Date of Last Invoice: <span>31/12/22</span>
@@ -271,7 +271,7 @@ const CustomerInfo = () => {
 					</p>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

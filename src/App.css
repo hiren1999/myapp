@@ -1,1 +1,9 @@
-/** @format */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+button span {
+	font-size: 13px;
+}
