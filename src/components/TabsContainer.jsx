@@ -4,7 +4,7 @@ import CustomerInfo from './CustomerInfo';
 
 const TabsContainer = () => {
 	return (
-		<div className='my-4 p-3'>
+		<div className='my-4'>
 			<Tabs
 				defaultActiveKey='customer-info'
 				id='justify-tab-example'
