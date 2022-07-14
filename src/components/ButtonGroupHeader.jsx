@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
+import { Button } from 'primereact/button';
 import {
 	FaSistrix,
 	FaPrint,
@@ -32,7 +33,7 @@ const ButtonGroupHeader = () => {
 						<span>Status</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1  p-button-secondary'>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -41,7 +42,7 @@ const ButtonGroupHeader = () => {
 						<span>Print Statement</span>
 					</div>
 				</Button>
-				<Button variant='light' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1 p-button-secondary '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -79,7 +80,7 @@ const ButtonGroupHeader = () => {
 						<span>ShipTo</span>
 					</div>
 				</Button>
-				<Button variant='success' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1 p-button-success '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -108,7 +109,7 @@ const ButtonGroupHeader = () => {
 				</Button>
 			</div>
 			<div className='col-12 col-md-6 col-xl-3 mb-2 d-flex justify-content-between'>
-				<Button variant='primary' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1 p-button-primary '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -117,7 +118,7 @@ const ButtonGroupHeader = () => {
 						<span>New</span>
 					</div>
 				</Button>
-				<Button variant='danger' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1 p-button-danger '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -126,7 +127,10 @@ const ButtonGroupHeader = () => {
 						<span>Delete</span>
 					</div>
 				</Button>
-				<Button variant='success' className='me-2 mb-1  '>
+				<Button
+					variant='success'
+					className='me-2 mb-1  p-button-success'
+				>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '
@@ -135,7 +139,7 @@ const ButtonGroupHeader = () => {
 						<span>Save</span>
 					</div>
 				</Button>
-				<Button variant='danger' className='me-2 mb-1  '>
+				<Button className='me-2 mb-1 p-button-danger '>
 					<div
 						className='d-flex justify-content-center align-items-center flex-column
 '

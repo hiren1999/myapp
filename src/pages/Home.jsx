@@ -7,8 +7,8 @@ import TabsContainer from '../components/TabsContainer';
 const Home = () => {
 	return (
 		<>
-			<NavbarTop />
 			<Container>
+				<NavbarTop />
 				<ButtonGroupHeader />
 				<TabsContainer />
 			</Container>

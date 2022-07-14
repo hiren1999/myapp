@@ -3,7 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 
 const CustomerInfo = () => {
 	return (
-		<div className='border'>
+		<>
 			<div className='row m-3'>
 				<div className='col-12 '>
 					<div className='d-flex flex-column'>
@@ -271,7 +271,7 @@ const CustomerInfo = () => {
 					</p>
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
